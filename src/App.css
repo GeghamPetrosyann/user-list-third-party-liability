@@ -1,0 +1,175 @@
+/* Centering container */
+.center-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  /* Full viewport height */
+  background-color: #e0f7fa;
+  /* Light cyan background */
+  padding: 20px;
+}
+
+/* Center the table */
+.center-table-wrapper {
+  border-collapse: collapse;
+  width: 80%;
+  max-width: 1200px;
+  /* Optional max width */
+  margin: 20px 0;
+  background-color: #ffffff;
+  /* White background for table */
+  border-radius: 8px;
+  overflow: hidden;
+  /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Light shadow */
+}
+
+.center-table-wrapper,
+.center-table-wrapper th,
+.center-table-wrapper td {
+  border: 1px solid #ddd;
+}
+
+.center-table-wrapper th,
+.center-table-wrapper td {
+  padding: 12px;
+  text-align: left;
+}
+
+.center-table-wrapper th {
+  background-color: #009688;
+  /* Teal header */
+  color: #ffffff;
+  /* White text */
+}
+
+.center-table-wrapper tr:nth-child(even) {
+  background-color: #f1f8e9;
+  /* Light green for even rows */
+}
+
+.center-table-wrapper tr:nth-child(odd) {
+  background-color: #ffffff;
+  /* White for odd rows */
+}
+
+.center-table-wrapper tr:hover {
+  background-color: #b2dfdb;
+  /* Teal for hover effect */
+}
+
+/* Style the form container */
+.form-container {
+  max-width: 500px;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #ffffff;
+  /* White background for form */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Light shadow */
+}
+
+form p {
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: #00796b;
+  /* Teal color for labels */
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #009688;
+  /* Teal border */
+  border-radius: 4px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  /* Inset shadow */
+}
+
+button {
+  background-color: #00796b;
+  /* Teal button */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* Shadow for button */
+}
+
+button:hover {
+  background-color: #004d40;
+  /* Darker teal on hover */
+}
+
+p.error-message {
+  color: #d32f2f;
+  /* Red for error messages */
+  font-size: 14px;
+}
+
+/* Custom styles for React Toastify */
+
+/* Style for the toast container */
+.Toastify__toast-container {
+  /* Customize container styles */
+  font-family: Arial, sans-serif;
+  /* Change the font */
+}
+
+/* Style for the success toast */
+.Toastify__toast--success {
+  background: #4caf50;
+  /* Green background */
+  color: #ffffff;
+  /* White text */
+}
+
+/* Style for the error toast */
+.Toastify__toast--error {
+  background: #f44336;
+  /* Red background */
+  color: #ffffff;
+  /* White text */
+}
+
+/* Style for the info toast */
+.Toastify__toast--info {
+  background: #2196f3;
+  /* Blue background */
+  color: #ffffff;
+  /* White text */
+}
+
+/* Style for the warning toast */
+.Toastify__toast--warning {
+  background: #ff9800;
+  /* Orange background */
+  color: #ffffff;
+  /* White text */
+}
+
+/* Style for the toast content */
+.Toastify__toast-body {
+  /* Customize body styles */
+  padding: 15px;
+  font-size: 14px;
+}
+
+/* Style for the close button */
+.Toastify__close-button {
+  color: #ffffff;
+  /* White close button */
+}
